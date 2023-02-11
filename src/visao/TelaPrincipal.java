@@ -201,7 +201,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 + "\nPeso : " + pessoa.peso  
                 + "\nAltura : " + pessoa.altura 
                 + "\nSexo : " + pessoa.sexo
-                + "\nIMC :" + String.format("%.2f\n", pessoa.calcularIMC()
+                + "\nIMC :" + String.format("%.2f\n", pessoa.calcularIMC())
         );
     }//GEN-LAST:event_jButton1ActionPerformed
 
